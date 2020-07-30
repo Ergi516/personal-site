@@ -1,14 +1,17 @@
-import React from 'react'
-import Title from '../components/Title'
- const About = () => {
+import React from "react";
+import Title from "../components/Title";
+
+const About = () => {
   return (
     <div className='inner'>
-      <Title lineContent='This is the' lineContent2='about page'/>
-      <p className="info">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <Title lineContent='Get to' lineContent2='Know me' />
+      <p className='other'>
+        A character his cache I succeed employed entire been it find the more
+        and may the to his their five and towards in lay rippedup, what and so
+        endure before for her been decades the few to than would was concept.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
