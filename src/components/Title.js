@@ -9,7 +9,7 @@ const Title = ({ lineContent, lineContent2 }) => {
       <h1 className='page-title'>
         <div className="line-wrap">
           <div ref={el => line1 = el} className="line">
-            Hello I got the job
+            {lineContent}
           </div>
         </div>
       </h1>
@@ -17,7 +17,7 @@ const Title = ({ lineContent, lineContent2 }) => {
       <h1 className='page-title'>
         <div className="line-wrap">
           <div ref={el => line2 = el} className="line">
-            Hello Im Ergi with the job
+           {lineContent2}
           </div>
         </div>
       </h1>
