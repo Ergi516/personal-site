@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 
-const Title = () => {
+const Title = ({ lineContent, lineContent2 }) => {
   let line1 = useRef(null)
   let line2 = useRef(null)
   
